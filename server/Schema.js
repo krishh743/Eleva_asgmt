@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+// momgoose required to establish connection between mongodb and nodejs
 
 mongoose.connect('127.101,0', {
     useNewUrlParser: true,
