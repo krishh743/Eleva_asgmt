@@ -3,7 +3,7 @@ const app = express();
 const cors = require('cors')
 const Menu = require('./Schema')
 app.use(cors())
-
+//we can update more data in json format
 const arr = [
     {
         name: "Krishna kumar"
